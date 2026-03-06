@@ -1,26 +1,12 @@
 import React from 'react';
 import {
-  Box, Typography, Stack, Grid, Card, CardContent, Chip, Avatar, Divider, alpha,
+  Box, Typography, Stack, Grid, Card, CardContent, Chip, Avatar, alpha,
   Table, TableBody, TableCell, TableRow,
 } from '@mui/material';
-import PersonIcon from '@mui/icons-material/Person';
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import DescriptionIcon from '@mui/icons-material/Description';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import PercentIcon from '@mui/icons-material/Percent';
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
-import ScienceIcon from '@mui/icons-material/Science';
-import BusinessIcon from '@mui/icons-material/Business';
-import BadgeIcon from '@mui/icons-material/Badge';
-import CategoryIcon from '@mui/icons-material/Category';
-import PhoneIcon from '@mui/icons-material/Phone';
-import EmailIcon from '@mui/icons-material/Email';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useData } from '../../context/DataContext';
 
 const STATUS_ORDER = ['draft', 'estimated', 'quoted', 'order_confirmed', 'in_production', 'inspected', 'shipped', 'closed'];
