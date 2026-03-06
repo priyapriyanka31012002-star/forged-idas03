@@ -8,9 +8,6 @@ import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import SaveIcon from '@mui/icons-material/Save';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import InventoryIcon from '@mui/icons-material/Inventory';
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import BusinessIcon from '@mui/icons-material/Business';
-import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import { useData } from '../../context/DataContext';
 
 const cardSx = {

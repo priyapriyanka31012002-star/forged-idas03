@@ -6,9 +6,7 @@ import {
 import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 import FactoryIcon from '@mui/icons-material/Factory';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import EngineeringIcon from '@mui/icons-material/Engineering';
-import BusinessIcon from '@mui/icons-material/Business';
 import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturing';
 import { useData } from '../../context/DataContext';
 
